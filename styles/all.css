@@ -1,0 +1,330 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    /* font-weight: 300; */
+    /* font-size: 15px; */
+    /* line-height:30px; */
+    /* width:60%; */
+    /* margin: 0; */
+    /* color:white; */
+    background-color: #121212;
+    background-color:#323639;
+
+}
+
+.header {
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    max-width: 700px;
+    margin: auto;
+    /* padding-left: 40px; */
+    padding-top: 50px;
+    padding-bottom: 25px;
+    /* margin-left:450px; */
+    color: white;
+
+}
+
+.body{
+    /* font-family: 'Montserrat', sans-serif; */
+    font-weight: 100;
+    font-size: 20px;
+    max-width: 700px;
+    margin: auto;
+    /* padding-left: 40px; */
+    /* padding-top: 50px; */
+    padding-bottom: 100px;
+    color:white;
+
+
+}
+.primary {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height:30px;
+    color: #333;
+}
+
+.secondary {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height:30px;
+    color: white;
+}
+
+.tertiary {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height:30px;
+    color: #999;
+}
+
+#navbar {
+    /* border-style: solid; */
+    /* align-self: auto */
+    /* display: inline; */
+    padding-top: 50px;
+    max-width: 700px;
+    margin: auto;
+}
+
+#navbar ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+}
+.navcolor{
+    color: rgb(193, 193, 193);
+    font-size:15px;
+}
+.socialcolor{
+    color: black;
+}
+#navbar li {
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 30px;
+    /* margin-right: 30px; */
+    display: inline;
+
+
+}
+
+#current_page{
+    /* background-color: black; */
+    color: white;
+    /* border-style: solid; */
+    /* border-bottom-color: rgb(249, 23, 60); */
+}
+
+.block{
+    height: 100%;
+    /* width: 200px; */
+    /* border-style: solid; */
+    /* background-color: whitesmoke; */
+    flex:1;
+    /* line-height: 100px; */
+    position: relative;
+
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    max-width: 1000px;
+    margin: auto;
+    /* border-style: dotted; */
+    /* background-color: grey; */
+}
+
+footer{
+    /* width: 100%; */
+    background-color: #222222;
+    background-color:#1F2023;
+}
+.footer_color{
+    color: black;
+}
+
+.footer_text{
+    text-align: center;
+    font-weight: 250;
+    font-size: 70%;
+    /* vertical-align: middle; */
+    /* line-height: 0; */
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#858585;
+}
+.project-container{
+    width:1200px;
+    /* height: 300px; */
+    /* border-style: solid; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction:row; */
+    padding: 0;
+
+}
+
+.project{
+    width: 700px;
+    margin: auto;
+    margin-bottom: 100px;
+    /* box-shadow: 0 1px 1px 0 #131313, 0px 10px 20px 0px rgba(0, 0, 0, 0.1); */
+    transition: all .1s;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #121212;
+    background-color:#323639;
+    /* border-radius: 40px; */
+}
+
+.project:hover{
+    box-shadow: 0 1px 111px 0 rgba(0, 0, 0, 0), 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+    /* transform: translateY(-10px); */
+    transform: scale(1.01);
+    background-color: #222222;
+    border-radius: 0 40px 40px 0;
+
+
+}
+
+.img_block{
+    height:320px;
+    flex: 1;
+}
+.descrip{
+    /* height:120px; */
+    /* width: 100px; */
+    /* padding: 0;
+    margin: 0; */
+    flex: 1;
+    /* background-color: #fafafa; */
+    /* flex:1; */
+}
+
+.mid_align{
+    padding-top: 40px;
+}
+.image{
+    /* height: 200px; */
+    /* color:red ; */
+    /* border-style:solid; */
+    /* flex:2; */
+    text-align: center;
+}
+
+.project_title{
+    margin: 0;
+    padding-left: 35px;
+    font-size: 100%;
+    /* padding-left: 20px; */
+    /* display: inline-block; */
+    /* width:200px; */
+    /* border-style: solid; */
+    color:white;
+    font-family: 'Merriweather', sans-serif;
+    font-size:25px;
+    padding-top:8px;
+    padding-bottom: 8px;
+}
+.project_category{
+    margin: 0;
+    font-size: 100%;
+    /* padding-top: 25px; */
+    padding-left: 35px;
+    padding-top: 25px;
+    /* line-height: 10px; */
+    /* display: inline-block; */
+    /* border-style: solid; */
+    /* font-family: 'Product Sans', sans-serif; */
+    font-weight: 500;
+    /* float: right; */
+    color: #FBF087;
+    /* text-align: right; */
+}
+.project_info{
+    margin: 0;
+    font-size: 100%;
+    /* padding-left: 20px; */
+    line-height : 25px;
+    padding-bottom: 5px;
+    /* padding-left: 25px; */
+    color: rgb(145, 145, 145);
+}
+
+.button{
+    margin-left: 35px;
+    font-size: 100%;
+    /* width: 80px; */
+    /* height: 11px; */
+    text-align: left;
+    /* font-family: 'Product Sans', sans-serif; */
+
+
+}
+
+.button_a{
+    /* margin-right: 25px; */
+    font-weight: 500;
+    /* padding:  10px 15px 10px 15px; */
+    color: #FBF087;
+    /* border-bottom-style: solid; */
+    /* border-color: #FBF087; */
+    /* border-width: 2px; */
+    text-decoration: none;
+}
+
+/* .button_a:hover{
+    color: black;
+} */
+
+.side_padding{
+    padding-left: 35px;
+    padding-right: 35px;
+    /* border-style: solid; */
+}
+
+.icon{
+    height: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.project_img{
+    text-align: center;
+    /* max-height: 100%;
+    max-width: 100%; */
+    height:80%;
+    width:80%;
+    object-fit: contain;
+    /* object-fit: conver; */
+    margin: 0;
+    position:relative;
+    top:35px;
+    left:40px;
+}
+
+.minheight{
+    min-height: 55vh;
+}
+
+.spacer200px{
+    height:150px;
+}
+
+.content_wrapper{
+    min-height: 100%;
+    margin-bottom: -100px;
+
+}
+
+.push{
+    height: 100px;;
+}
+
+.underline{
+    text-decoration: underline;
+    color:#FBF087;
+}
