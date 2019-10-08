@@ -149,7 +149,7 @@ footer{
     /* height: 300px; */
     /* border-style: solid; */
     margin:auto;
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     /* flex-direction:row; */
     padding: 0;
@@ -262,17 +262,17 @@ footer{
   display: inline-block;
   font-size: 14px;
   margin: 4px 2px;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
+  /* -webkit-transition-duration: 0.4s;
+ transition-duration: 0.4s; */
   cursor: pointer;
   border-radius: 18px;
 }
 
-.button_a:hover{
-    background-color: white;
+/* .button_a:hover{
+  background-color: white;
   color: black;
   border: 2px solid rgb(114, 130, 250);
-}
+} */
 
 .side_padding{
     padding-left: 35px;
