@@ -1,0 +1,321 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    /* font-weight: 300; */
+    /* font-size: 15px; */
+    /* line-height:30px; */
+    /* width:60%; */
+    /* margin: 0; */
+}
+
+.header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 450;
+    font-size: 45px;
+    max-width: 750px;
+    margin: auto;
+    /* padding-left: 40px; */
+    padding-top: 50px;
+    padding-bottom: 25px;
+    /* margin-left:450px; */
+}
+
+.body{
+    /* font-family: 'Montserrat', sans-serif; */
+    font-weight: 100;
+    font-size: 20px;
+    max-width: 750px;
+    margin: auto;
+    /* padding-left: 40px; */
+    /* padding-top: 50px; */
+    padding-bottom: 100px;
+}
+.primary {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height:30px;
+    color: #333;
+
+}
+
+.secondary {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height:30px;
+    color: #333;
+}
+
+.tertiary {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height:30px;
+    color: #999;
+}
+
+#navbar {
+    /* border-style: solid; */
+    /* align-self: auto */
+    /* display: inline; */
+    padding-top: 50px;
+    max-width: 750px;
+    margin: auto;
+}
+
+#navbar ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+}
+.navcolor{
+    color: rgb(193, 193, 193);
+}
+.socialcolor{
+    color: black;
+}
+#navbar li {
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 30px;
+    /* margin-right: 30px; */
+    display: inline;
+
+
+}
+
+#current_page{
+    /* background-color: black; */
+    color: black;
+    /* border-style: solid; */
+    /* border-bottom-color: rgb(249, 23, 60); */
+}
+
+.block{
+    height: 100%;
+    /* width: 200px; */
+    /* border-style: solid; */
+    /* background-color: whitesmoke; */
+    flex:1;
+    /* line-height: 100px; */
+    position: relative;
+
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    max-width: 1000px;
+    margin: auto;
+    /* border-style: dotted; */
+    /* background-color: grey; */
+}
+
+footer{
+    /* width: 100%; */
+    background-color: #f7f7f7;
+}
+.footer_color{
+    color: black;
+}
+
+.footer_text{
+    text-align: center;
+    font-weight: 250;
+    font-size: 70%;
+    /* vertical-align: middle; */
+    /* line-height: 0; */
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.project-container{
+    /* width:960px; */
+    /* height: 300px; */
+    /* border-style: solid; */
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction:row; */
+    padding: 0;
+}
+
+.project{
+    width: 750px;
+    margin:auto;
+    margin-bottom: 100px;
+    /* box-shadow: 0 1px 1px 0 #f7f7f7, 0px 10px 20px 0px rgba(0, 0, 0, 0.1); */
+    /* transition: all .1s; */
+    display: flex;
+    flex-wrap: nowrap;
+    /* box-shadow: 0 1px 111px 0 rgba(0, 0, 0, 0), 0 10px 30px 0 rgba(0, 0, 0, 0.2); */
+}
+
+.project:hover{
+    /* box-shadow: 0 1px 111px 0 rgba(0, 0, 0, 0), 0 10px 30px 0 rgba(0, 0, 0, 0.2); */
+    /* transform: translateY(-10px); */
+    /* transform: scale(1.01); */
+
+
+}
+
+.img_block{
+    height:300px;
+    flex: 1.2;
+    /* box-shadow: 0 1px 111px 0 rgba(0, 0, 0, 0), 0 10px 30px 0 rgba(0, 0, 0, 0.2); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.descrip{
+    /* height:120px; */
+    /* width: 100px; */
+    /* padding: 0;
+    margin: 0; */
+    flex: 1;
+    /* background-color: #fafafa; */
+    /* flex:1; */
+}
+
+.mid_align{
+    padding-top: 0px;
+}
+.image{
+    /* height: 200px; */
+    /* color:red ; */
+    /* border-style:solid; */
+    /* flex:2; */
+    text-align: center;
+}
+
+.project_title{
+    margin: 0;
+    padding-left: 35px;
+    font-size: 20px;
+    /* padding-left: 20px; */
+    /* display: inline-block; */
+    /* width:200px; */
+    /* border-style: solid; */
+    color: rgb(50, 50, 50);
+}
+.project_category{
+    margin: 0;
+    font-size: 20px;
+    /* padding-top: 25px; */
+    padding-left: 35px;
+    padding-top: 0px;
+    /* line-height: 10px; */
+    /* display: inline-block; */
+    /* border-style: solid; */
+
+    /* float: right; */
+    color: rgb(114, 130, 250);
+    /* text-align: right; */
+}
+.project_info{
+    margin: 0;
+    margin-bottom:10px;
+    font-size: 15px;
+    /* padding-left: 20px; */
+    line-height : 25px;
+    /* padding-bottom: 10px; */
+    /* padding-left: 25px; */
+    color: rgb(145, 145, 145);
+}
+
+.button{
+    margin-left: 35px;
+    font-size: 60%;
+    /* width: 80px; */
+    /* height: 11px; */
+    text-align: left;
+
+
+
+}
+
+.button_a{
+    font-weight: 500;
+    /* color: rgb(114, 130, 250); */
+    /* border-bottom-style: solid;
+    border-color: rgb(114, 130, 250);
+    border-width: 2px; */
+    background-color: rgb(114, 130, 250); /* Green */
+  border: none;
+  color: white;
+  padding: 4px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 18px;
+}
+
+.button_a:hover{
+    background-color: white;
+  color: black;
+  border: 2px solid rgb(114, 130, 250);
+}
+
+.side_padding{
+    padding-left: 35px;
+    padding-right: 35px;
+    /* border-style: solid; */
+}
+
+.icon{
+    height: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.project_img{
+    text-align: center;
+    /* max-height: 100%;
+    max-width: 100%; */
+    height:100%;
+    width:100%;
+    object-fit: contain;
+    /* object-fit: conver; */
+    margin: 0;
+}
+
+.minheight{
+    min-height: 55vh;
+}
+
+.spacer200px{
+    height:200px;
+}
+
+.content_wrapper{
+    min-height: 100%;
+    margin-bottom: -100px;
+}
+
+.push{
+    height: 100px;;
+}
+
+
+.underline{
+    text-decoration: underline;
+    color:rgb(114, 130, 250);
+}
